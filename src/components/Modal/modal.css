@@ -1,0 +1,33 @@
+.modal {
+    background-color: #0005;
+    inset: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 30;
+    transition: transform 500ms;
+}
+.modal--hidden {
+    animation: hide-modal 1s;
+}
+
+.modal__container{
+    position: relative;
+}
+
+.modal__icon{
+    top: 0.5em;
+    right: 0.5em;
+    position: absolute;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #481a72;
+}
+
+@keyframes hide-modal {
+    0% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}

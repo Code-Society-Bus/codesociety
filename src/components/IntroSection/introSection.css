@@ -1,0 +1,14 @@
+.section--intro{
+    background-color: #d2bcf8;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.section__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1em;
+}

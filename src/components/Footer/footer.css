@@ -1,0 +1,28 @@
+.footer{
+    background-color: #39384B;
+    color: #fff;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.footer__navbar{
+    display: flex;
+    align-items: center;
+    gap:1em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer__paragraph{
+    font-weight: 900;
+}
+
+.footer__list--social-media{
+    display: flex;
+}
+
+.footer__list{
+    list-style-type: none;
+    padding-left: 0;
+    column-gap: 1em;
+}

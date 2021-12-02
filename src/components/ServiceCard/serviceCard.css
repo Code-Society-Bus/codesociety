@@ -1,0 +1,32 @@
+.card{
+    width: 25em;
+    height: 18em;
+    background-color: #fff;
+    box-shadow: 0 0 0.1em;
+    overflow: hidden;
+    border-radius: 0.5em;
+}
+
+.card__title{
+    color: #fff;
+    position: absolute;
+    text-align: center;
+}
+
+.card__text{
+    padding-inline: 2em;
+}
+
+.card__container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__container::before{
+    background-color: #0008;
+    content: '';
+    inset: 0;
+    position: absolute;
+}
